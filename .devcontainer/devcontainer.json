@@ -12,5 +12,6 @@
       "esbenp.prettier-vscode"
     ]
     }
-  }
+  },
+  "postCreateCommand": "npm install -g yarn && yarn global add turbo && yarn install"
 }
