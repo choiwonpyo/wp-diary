@@ -13,5 +13,5 @@
     ]
     }
   },
-  "postCreateCommand": "npm install -g yarn && yarn global add turbo && yarn install"
+  "postCreateCommand": "npm install -g yarn && yarn global add @nestjs/cli && yarn global add turbo && yarn install"
 }
